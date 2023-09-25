@@ -1,0 +1,161 @@
+.footer{
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    width: 100%;    
+}
+.h2Footer{
+  font-size: 2.5rem;
+  color: azure;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.divFooter{
+    width: 90%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px, 1fr)) ;
+    margin: 1.5rem auto;
+
+}
+
+.leftFooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+}
+.ulLeftFooter li{
+    margin: 1rem auto;
+}
+.middleFooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    gap: 0.5rem;
+}
+.ulMiddleFooter li{
+  margin: 1.3rem auto;
+}
+.rightFooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+.iconReseauFooter{
+  margin: 1rem auto ;
+
+}
+
+.h3Footer{
+    color: aliceblue;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.navLinkFooter{
+    color: aliceblue;
+    margin: 5px auto;
+    font-size: 1.6rem;
+}
+.iconReseauFooter{
+    width: 30px;
+    height: 30px;
+}
+
+.logoFooter{
+    width: 40px;
+    
+} 
+
+.navLinkIcone{
+    display: flex;
+    justify-content: center;
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    font-size: 1.6rem;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 768px){
+  .footer{
+    width: 100%;
+  }
+  .divFooter {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 10px auto;
+  }
+  .h3Footer{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:390px) and (min-width:281px){
+  .h2Footer{
+    font-size: 2rem;
+  }
+  
+  .h3Footer{
+    font-size: 1.6rem;
+  }
+  .navLinkFooter{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+    .footer {
+      width: 100%;
+      padding: 10px;
+    }
+    .h2Footer{
+      font-size: 1.8rem;
+    }
+  
+    .divFooter {
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 10px auto;
+    }
+  
+    .h3Footer {
+      width: 90%;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      margin: 10px auto;
+    }
+  
+    .navLinkFooter {
+      font-size: 1.4rem;
+      margin: 3px auto;
+    }
+  
+    .iconReseauFooter {
+      width: 25px;
+    }
+  
+    .logoFooter {
+      width: 30px;
+      margin: 0 auto;
+    }
+  
+    .navLinkIcone {
+      justify-content: flex-start;
+    }
+  
+    .copyright {
+      font-size: 1.4rem;
+    }
+  }
+  

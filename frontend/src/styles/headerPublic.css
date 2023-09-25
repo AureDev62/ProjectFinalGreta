@@ -1,0 +1,114 @@
+.header{
+  width: 100%;
+  position: relative;
+}
+
+/*Css pour la navbar */
+.logo {
+  width: 50px;
+}
+
+.nav-bar{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1% 2%;
+  background-color: #000;
+  width: 100%;
+  
+}
+
+.hamburger-react{
+  display: none;
+}
+
+.hidden{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navlink{
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.navlinkSpan{
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/*CSS pour le header avec l'image */
+.headerImage{
+  width: 100%;
+}
+
+
+.headerTitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 5rem;
+  white-space: nowrap;
+  
+}
+
+/*media queries*/
+@media screen and (max-width:768px){
+
+  .hidden{
+    display: none;
+  }
+  .visible{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 59px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 2;
+  }
+  .headerTitle{
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  .visible .navlink,.navlinkSpan{
+    padding-left: 0.5rem;
+  }
+  .hamburger-react{
+    display: inline-block;
+  }
+}
+
+@media screen  and (max-width:400px) {
+
+  .headerImage{
+    background-size: cover;
+  }
+  .headerTitle{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  
+}
+
+@media screen  and (max-width:350px) and (min-width:280px){
+
+  .headerImage{
+    background-size: cover;
+  }
+  .headerTitle{
+    font-size: 2rem;
+    white-space: inherit;
+  }
+}
+

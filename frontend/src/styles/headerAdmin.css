@@ -1,0 +1,19 @@
+.headerUlAdmin{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.headerLinkAdmin{
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:768px){
+    .headerUlAdmin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,20 @@
+/* import des fichiers css des pages public  /Import CSS files for public pages */
+@import url("./home.css");
+@import url("./blog.css");
+@import url("./post.css");
+@import url("./terms.css");
+@import url("./privacypolicy.css");
+@import url("./legalnotice.css");
+@import url("./faq.css");
+@import url("./contact.css");
+/* import des fichiers css des pages authentification/Import CSS files for authentication pages */
+@import url("./signin.css");
+@import url("./signup.css");
+/* import des fichiers css des pages admin/Import CSS files for admin pages */
+@import url("./adminblog.css");
+@import url("./adminusers.css");
+@import url("./dashboard.css");
+/* import des fichiers css des composants /Import CSS files for components*/
+@import url("./headerPublic.css");
+@import url("./headerAdmin.css");
+@import url("./footer.css");

@@ -1,0 +1,168 @@
+.createAdminBlog {
+    width: 60%;
+    margin: 2rem auto;
+}
+    
+.h2CreateAdminBlog {
+    font-size: 2rem;
+    text-align: center;
+ }
+    
+.formCreateAdminBlog {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+}
+    
+.adminPosts {
+    display: flex;
+    flex-direction: column;
+}
+    
+.h2AllPostsAdmin {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+    
+.h3AllPostsAdmin {
+    font-size: 2rem;
+    text-align: center;
+}
+    
+.allPostsAdmin {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin: 2rem auto;
+    border: 1px solid #000;
+    width: 80%;
+    padding: 1rem;
+}
+    
+.pAllPostsAdmin {
+    font-size: 1.2rem;
+}
+    
+.imageAdminBlog {
+    width: 200px;
+    margin: auto;
+}
+.updateAndDelete{
+    width: 100%;
+    text-align: center;
+}
+    
+.formUpdateAndDelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.textareaUpdate{
+    font-size: 1.2rem;
+    width: 80%;
+}
+    
+.formUpdateAndDelete input {
+    font-size: 1.2rem;
+    width: 80%;
+    padding: 0.7rem;
+}
+.labelAdminBlog{
+    display: none;
+}
+    
+.selectAdmin {
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+   
+}
+    
+.buttonAdmin {
+    margin: 0 auto;
+}
+    
+.buttonAdmin button {
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 6%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border: none;
+    color: #fff;
+    background-color: #a93138;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+@media screen and (max-width:768px){
+    .adminPosts{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .createAdminBlog{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:390px) and (min-width:281px){
+    .adminPosts{
+        width: 90%;
+    }
+
+    .createAdminBlog{
+        width: 90%;
+    }
+    .allPostsAdmin{
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+}
+    
+@media screen and (max-width: 280px) {
+    .createAdminBlog {
+    width: 90%;
+    margin: 1rem auto;
+    }
+    
+    .h2CreateAdminBlog,
+    .h2AllPostsAdmin,
+    .h3AllPostsAdmin,
+    .formCreateAdminBlog,
+    .formUpdateAndDelete input,
+    .selectAdmin,
+    .buttonAdmin button,
+    .pAllPostsAdmin {
+    font-size: 1.6rem;
+    }
+    
+    .allPostsAdmin {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    }
+    
+    .imageAdminBlog {
+    width: 150px;
+    }
+    
+    .UpdateAndDelete {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .selectAdmin {
+    width: 90%;
+    }
+}

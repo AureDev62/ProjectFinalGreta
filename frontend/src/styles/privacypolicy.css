@@ -1,0 +1,39 @@
+.divPrivacy{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    
+}
+
+.h2Privacy{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.detailsPrivacy{
+    border: 1px solid #000;
+    width: 70%;
+    
+}
+
+.summaryPrivacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.paragraphPrivacy{
+    font-size: 1.5rem;
+}
+
+.spanPrivacy{
+    font-size: 2rem;
+    
+}
+.arrowPrivacy{
+   margin-left: auto;
+    
+}

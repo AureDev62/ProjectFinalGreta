@@ -1,0 +1,13 @@
+.divDashboard{
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.h2Dashboard{
+    font-size: 2rem;
+}
+
+.pDashboard{
+    font-size: 1.5rem;
+}
