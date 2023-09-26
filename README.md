@@ -23,13 +23,13 @@ npm install
 
 Lancement du Frontend React
 Avant de lancer le frontend React, vous devez vous assurer que les dépendances du frontend sont installées.
-Naviguez vers le dossier du frontend en utilisant `cd .\frontend\` et exécutez la commande suivante pour installer les dépendances du frontend React :
-npm run start
+Naviguez vers le dossier du frontend en utilisant `cd .\frontend\` et exécutez la commande suivante pour démarrer le frontend React :
+`npm run start`
 
 Lancement du Backend (Node.js)
 Avant de lancer le backend, vous devez vous assurer que les dépendances du backend sont installées.
-Naviguez vers le dossier du backend en utilisant `cd .\backend\` et exécutez la commande suivante pour installer les dépendances du backend node.js :
-npm run start
+Naviguez vers le dossier du backend en utilisant `cd .\backend\` et exécutez la commande suivante pour démarrer le backend node.js :
+`npm run start`
 
 
 
